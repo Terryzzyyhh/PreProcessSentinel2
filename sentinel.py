@@ -162,8 +162,7 @@ def main(zipdir, script_path):
 
 
 if __name__ == '__main__':
-    zipdir =r"F:\NingboS2"
-    #os.getcwd()
-    #r"F:\NingboS2"   # 压缩文件所在目录。保证目录里只有sentinel影像的zip文件
-    script = r"..\Sen2Cor-02.08.00-win64\L2A_Process.bat"  # 脚本路径
+    zipdir = r"F:\ZYwork"
+    projectdir = sys.path[0]
+    script = os.path.join(projectdir, "Sen2Cor-02.09.00-win64", "L2A_Process.bat")
     main(zipdir, script_path=script)
