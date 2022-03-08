@@ -164,5 +164,5 @@ def main(zipdir, script_path):
 if __name__ == '__main__':
     zipdir = r"F:\ZYwork"
     projectdir = sys.path[0]
-    script = os.path.join(projectdir, "Sen2Cor-02.09.00-win64", "L2A_Process.bat")
+    script = os.path.join(projectdir, "Sen2Cor-02.10.01-win64", "L2A_Process.bat")
     main(zipdir, script_path=script)
